@@ -14,7 +14,7 @@ pipeline {
         stage('Git Checkout') {
             steps {
                 dir('terraform') {
-                    git branch: 'terraform', url: 'https://github.com/Prathima-R/Terraform-2-projects-Pratice.git’
+                    git branch: 'terraform', url: 'https://github.com/Prathima-R/Terraform-2-projects-Pratice.git'
                 }
             }
         }
